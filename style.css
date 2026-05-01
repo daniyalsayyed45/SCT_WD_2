@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+#display {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttons button:hover {
+  background: #555;
+}
+
+#laps {
+  margin-top: 20px;
+  text-align: left;
+  max-height: 150px;
+  overflow-y: auto;
+}
